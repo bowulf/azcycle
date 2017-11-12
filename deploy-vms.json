@@ -46,13 +46,13 @@
   },
   "variables": {
     "resourceLocation": "[resourceGroup().location]",
-    "adminjbvmSize": "Standard_D2s_v3",
+    "adminjbvmSize": "Standard_D2s_v2",
     "adminjbName": "adminjb",
     "adminjbNic": "adminjb-nic",
     "admin_nsg_name": "admin-nsg",
     "admin_subnet": "admin",
 
-    "cyclevmSize": "Standard_D8s_v3",
+    "cyclevmSize": "Standard_D8s_v2",
     "cycleName": "cycleserver",
     "cycleNic": "cycle-nic",
     "cycle_nsg_name": "cycle-nsg",
