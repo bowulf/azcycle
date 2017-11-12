@@ -134,6 +134,20 @@
               "sourceAddressPrefixes": [],
               "destinationAddressPrefixes": []
             }
+             {
+            "name": "AllowSSHInBound",
+            "properties": {
+              "protocol": "Tcp",
+              "sourcePortRange": "*",
+              "destinationPortRange": "22",
+              "sourceAddressPrefix": "Internet",
+              "destinationAddressPrefix": "VirtualNetwork",
+              "access": "Allow",
+              "priority": 1022,
+              "direction": "Inbound",
+              "sourceAddressPrefixes": [],
+              "destinationAddressPrefixes": []
+            }
           }
         ]
       },
